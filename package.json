@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+<<<<<<< HEAD
   "homepage": "https://vishal-anand01.github.io/The-Devil-Coders",
+=======
+>>>>>>> 76184dcb0a541f40e2fca3509d144feb3241a03f
   "scripts": {
     "dev": "vite",
     "build": "vite build",
