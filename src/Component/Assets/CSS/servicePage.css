@@ -1,0 +1,466 @@
+/* ye css hai page ke ke heading ke liye  */
+.about-us-text {
+    position: absolute;
+    left: 0;
+    height: max-content;
+    background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    /* Vertical writing mode */
+    text-orientation: mixed;
+    /* Mixed text orientation */
+    transform: scale(-1);
+    /* Flip text vertically */
+    z-index: 99;
+}
+
+/* end */
+
+
+/* yahan se single service ka css start hota hai  */
+.section-services {
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    color: #202020;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.section-services .header-section {
+    margin-bottom: 34px;
+}
+
+.section-services .header-section .title {
+    position: relative;
+    padding-bottom: 14px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.section-services .header-section .title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: #3498db;
+    border-radius: 3px;
+}
+
+.section-services .header-section .title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(30px);
+    width: 10px;
+    height: 3px;
+    background-color: #504f93;
+    border-radius: 3px;
+}
+
+.section-services .header-section .description {
+    font-size: 14px;
+    color: #282828;
+}
+
+.section-services .single-service {
+    position: relative;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 30px;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.section-services .single-service .content {
+    position: relative;
+    z-index: 20;
+}
+
+.section-services .single-service .circle-before {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    transform: translate(60%, -60%);
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+    /* border: 6px solid #1842b6; */
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: 10;
+    transition: all .6s;
+}
+
+.section-services .single-service:hover .circle-before {
+    width: 100%;
+    height: 100%;
+    transform: none;
+    border: 0;
+    border-radius: 0;
+    opacity: 1;
+}
+
+.section-services .single-service .icon {
+    display: inline-block;
+    margin-bottom: 26px;
+    width: auto;
+    height: 100%;
+    background-color: #00b2d6;
+    border-radius: 5px;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    transition: all .3s;
+}
+
+.section-services .single-service:hover .icon {
+    background-color: #fff;
+    color: #3498db !important;
+}
+
+.section-services .single-service .title {
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 18px;
+    transition: color .3s;
+}
+
+.section-services .single-service:hover .title {
+    color: #fff;
+}
+
+.section-services .single-service .description {
+    margin-bottom: 20px;
+    font-size: 14px;
+    transition: color .3s;
+}
+
+.section-services .single-service:hover .description {
+    color: #fff;
+}
+
+.section-services .single-service a {
+    position: relative;
+    font-size: 18px;
+    color: #202020;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color .3s;
+}
+
+.section-services .single-service:hover a {
+    color: #00b2d6;
+    background-color: white;
+    font-size: 16px;
+    border: 1px solid #077988;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+
+/* .section-services .single-service a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #26d48c;
+    transition: background-color .3s;
+} */
+
+.section-services .single-service:hover a:after {
+    background-color: #fff;
+}
+
+
+/* Why choose us section */
+
+.why-choose-us-section {}
+
+.choose-us-item {
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.choose-us-item::before {
+    content: "";
+    position: absolute;
+    top: -91px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 50%;
+    border-radius: 50%;
+    /* background: #00b2d6; */
+}
+
+
+
+.choose-us-item span {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    background: #ffffff;
+    font-size: 26px;
+    color: #e73c3e;
+    font-weight: 400;
+    transition: .5s;
+    position: relative;
+}
+
+.choose-us-items {
+    transition: .5s;
+}
+
+.choose-us-items:hover {
+    transform: translateY(-10px);
+}
+
+.choose-us-items:hover span {
+    background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+    color: #ffffff;
+}
+
+.choose-us-item span {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    background: #ffffff;
+    font-size: 26px;
+    color: #00b2d6;
+    font-weight: 400;
+    transition: .5s;
+    border: 1px solid #00b2d6;
+}
+
+.choose-us-item h1 {
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.choose-us-item p {
+    color: #606060;
+}
+
+.Lets-work-together {}
+
+
+/* this css for work together  */
+.features-lets-work-together .wrapper.angled {
+    position: relative;
+    border: 0;
+}
+
+.features-lets-work-together .wrapper.bg-light {
+    background-color: #fefefe !important;
+}
+
+.features-lets-work-together .wrapper.angled:before,
+.features-lets-work-together .wrapper.angled:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    border: 0 solid transparent;
+}
+
+.features-lets-work-together .wrapper.angled.upper-end:before {
+    border-right-color: transparent;
+    border-right-width: 100vw;
+    border-top-width: 4rem;
+    top: -4rem;
+}
+
+.features-lets-work-together .bg-dot.primary {
+    background-image: radial-gradient(#747ed1 2px, transparent 2.5px);
+}
+
+.features-lets-work-together .shape.rellax {
+    position: absolute;
+}
+
+.features-lets-work-together .bg-dot {
+    background-size: .75rem .75rem;
+}
+
+.features-lets-work-together .bg-dot,
+.features-lets-work-together .bg-line {
+    opacity: .3;
+}
+
+.features-lets-work-together .h-18 {
+    height: 8rem !important;
+}
+
+.features-lets-work-together .w-18 {
+    width: 8rem !important;
+}
+
+.features-lets-work-together figure {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.features-lets-work-together figure img {
+    width: 100%;
+    max-width: 100%;
+    height: auto !important;
+    transition: .8s;
+}
+
+.features-lets-work-together .rounded img {
+    border-radius: .4rem;
+}
+
+.features-lets-work-together .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(164, 174, 198, .2);
+    border-radius: .4rem;
+}
+
+.features-lets-work-together .bg-pale-primary {
+    background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+    color: white;
+}
+
+.features-lets-work-together .card {
+    box-shadow: 0 0 0 0.05rem #083c820f, 0 0 1.25rem #1e22280a;
+    border: 0;
+}
+
+.features-lets-work-together .card[class*=bg-] {
+    box-shadow: none !important;
+}
+
+.features-lets-work-together .card-body {
+    flex: 1 1 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.features-lets-work-together .py-11 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.features-lets-work-together .counter-wrapper .counter {
+    font-size: calc(1.325rem + .9vw);
+    letter-spacing: normal;
+    line-height: 1;
+    margin-bottom: .5rem;
+}
+
+.features-lets-work-together .text-nowrap {
+    white-space: nowrap !important;
+}
+
+.features-lets-work-together .counter-wrapper p {
+    margin-bottom: 0;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.features-lets-work-together .display-4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.features-lets-work-together .lets-line {
+    height: 5px;
+    width: 30px;
+    background-color: #222558;
+    margin: 0 0 15px 40px;
+    border-radius: 5px;
+}
+
+.features-lets-work-together .lets-line:before {
+    border-radius: 5px;
+    content: "";
+    height: 5px;
+    width: 20px;
+    background-color: #1882c3;
+    position: absolute;
+    margin-left: -35px;
+}
+
+.features-lets-work-together .lets-line:after {
+    border-radius: 5px;
+    content: "";
+    height: 5px;
+    width: 20px;
+    background-color: #1882c3;
+    position: absolute;
+    margin-left: 45px;
+}
+
+.features-lets-work-together .lead.fs-lg {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.service-page-animation1 {
+    background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+}
+
+@media (min-width: 768px) {
+    .features-lets-work-together .mt-md-10 {
+        margin-top: 2.5rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .why-choose-us-section {
+        padding: 15px;
+    }
+
+    .section-services {
+        padding: 15px;
+    }
+
+    .features-lets-work-together .wrapper.bg-light {
+        padding: 15px;
+    }
+
+    .features-lets-work-together .shape.rellax {
+        top: -55px !important;
+        left: -0.4rem !important;
+    }
+
+    .features-lets-work-together .display-4 {
+        margin-top: 50px;
+    }
+}
+.servicesAnimation{
+    height: 100px;
+    width: 100px;
+}

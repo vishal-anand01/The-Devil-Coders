@@ -1,0 +1,140 @@
+.team-hero-section {
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/hero-section-background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team-hero-section .team-hero-content .team-left-part-first-paragraph {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Team-animation {
+    width: 100%;
+}
+
+.team-left-part-headind {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.team-about-section-button {
+    border-color: #00b2d6 !important;
+    color: black !important;
+    font-weight: 600 !important;
+    transition: .5s !important;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 10px 30px !important;
+}
+
+
+
+.team-page-content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f2f2f2;
+}
+
+
+
+.team-page-content .card-pink {
+    border-radius: 6px;
+    border-bottom: 4px solid #00b2d6 !important;
+}
+
+.team-page-content .card-blue {
+    border-radius: 6px;
+    border-bottom: 4px solid #00b2d6 !important;
+}
+
+.team-page-content .col .card .card-shape img {
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    height: 100%;
+}
+
+.card-body{
+    padding:1rem 1.5rem;
+  }
+
+.team-page-content .card .card-body svg {
+    width: auto;
+    padding: 0px;
+}
+
+.team-page-content .card .card-footer p {
+    font-weight: bold;
+    color: #00b2d6 !important;
+}
+
+.team-page-content .card-body {
+    padding: 1rem 1.5rem;
+}
+
+.team-page-content .card-body p {
+    color: #4B5563;
+}
+
+.team-page-content .card-blue svg {
+    fill: #00b2d6;
+}
+
+.team-page-content .card-pink svg {
+    fill: #00b2d6;
+}
+
+.team-page-content .card-blue .card-footer p {
+    color: #1c68b3;
+}
+
+.team-page-content .card-pink .card-footer p {
+    color: #ff2c95;
+}
+
+.team-page-content .card-shape {
+    position: relative;
+}
+
+.team-page-content .custom-shape-divider-bottom-1634717805 {
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.team-page-content .custom-shape-divider-bottom-1634717805 svg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+.team-page-content .custom-shape-divider-bottom-1634717805 .shape-fill {
+    fill: #FFFFFF;
+}
+
+@media (max-width: 600px) {
+    .team-hero-section {
+        padding: 20px;
+        height: 550px;
+    }
+    .team-hero-section .team-left-part-headind{
+        font-size: 25px;
+    }
+    .team-hero-section .team-left-part-second-paragraph{
+        font-size: 15px;
+    }
+    .team-hero-section .team-left-part-second-paragraph span{
+        font-size: 15px !important;
+    }
+}

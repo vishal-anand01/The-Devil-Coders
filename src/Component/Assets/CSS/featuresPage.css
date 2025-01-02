@@ -1,0 +1,200 @@
+/* ye css hai page ke ke heading ke liye  */
+.about-us-text {
+    position: absolute;
+    left: 0;
+    height: max-content;
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    /* Vertical writing mode */
+    text-orientation: mixed;
+    /* Mixed text orientation */
+    transform: scale(-1);
+    /* Flip text vertically */
+    z-index: 99;
+}
+
+/* end */
+
+/* this css for work together  */
+.features-lets-work-together .wrapper.angled {
+    position: relative;
+    border: 0;
+}
+
+.features-lets-work-together .wrapper.bg-light {
+    background-color: #fefefe !important;
+}
+
+.features-lets-work-together .wrapper.angled:before,
+.features-lets-work-together .wrapper.angled:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    border: 0 solid transparent;
+}
+
+.features-lets-work-together .wrapper.angled.upper-end:before {
+    border-right-color: transparent;
+    border-right-width: 100vw;
+    border-top-width: 4rem;
+    top: -4rem;
+}
+
+.features-lets-work-together .bg-dot.primary {
+    background-image: radial-gradient(#747ed1 2px, transparent 2.5px);
+}
+
+.features-lets-work-together .shape.rellax {
+    position: absolute;
+}
+
+.features-lets-work-together .bg-dot {
+    background-size: .75rem .75rem;
+}
+
+.features-lets-work-together .bg-dot,
+.features-lets-work-together .bg-line {
+    opacity: .3;
+}
+
+.features-lets-work-together .h-18 {
+    height: 8rem !important;
+}
+
+.features-lets-work-together .w-18 {
+    width: 8rem !important;
+}
+
+.features-lets-work-together figure {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.features-lets-work-together figure img {
+    width: 100%;
+    max-width: 100%;
+    height: auto !important;
+    transition: .8s;
+}
+
+.features-lets-work-together .rounded img {
+    border-radius: .4rem;
+}
+
+.features-lets-work-together .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(164, 174, 198, .2);
+    border-radius: .4rem;
+}
+
+.features-lets-work-together .bg-pale-primary {
+    background-color: #e9eaf8 !important;
+}
+
+.features-lets-work-together .card {
+    box-shadow: 0 0 0 0.05rem #083c820f, 0 0 1.25rem #1e22280a;
+    border: 0;
+}
+
+.features-lets-work-together .card[class*=bg-] {
+    box-shadow: none !important;
+}
+
+.features-lets-work-together .card-body {
+    flex: 1 1 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.features-lets-work-together .py-11 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.features-lets-work-together .counter-wrapper .counter {
+    font-size: calc(1.325rem + .9vw);
+    letter-spacing: normal;
+    line-height: 1;
+    margin-bottom: .5rem;
+}
+
+.features-lets-work-together .text-nowrap {
+    white-space: nowrap !important;
+}
+
+.features-lets-work-together .counter-wrapper p {
+    margin-bottom: 0;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.features-lets-work-together .display-4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.features-lets-work-together .lets-line {
+    height: 5px;
+    width: 30px;
+    background-color: #222558;
+    margin: 0 0 15px 40px;
+    border-radius: 5px;
+}
+
+.features-lets-work-together .lets-line:before {
+    border-radius: 5px;
+    content: "";
+    height: 5px;
+    width: 20px;
+    background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+    position: absolute;
+    margin-left: -35px;
+}
+
+.features-lets-work-together .lets-line:after {
+    border-radius: 5px;
+    content: "";
+    height: 5px;
+    width: 20px;
+    background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+    position: absolute;
+    margin-left: 45px;
+}
+
+.features-lets-work-together .lead.fs-lg {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    .features-lets-work-together .mt-md-10 {
+        margin-top: 2.5rem !important;
+    }
+}
+
+.core-team-member-button-features {
+    border-color: #00b2d6 !important;
+    color: #00b2d6 !important;
+    font-weight: 600 !important;
+    transition: .5s !important;
+}
+
+.core-team-member-button-features:hover {
+    background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+    color: white !important;
+}

@@ -1,0 +1,166 @@
+.FAQ-Section .read-more-content .read-more-txt {
+    padding-top: 50px;
+}
+
+.FAQ-Section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.FAQ-Section h3 {
+    font-size: 20px !important;
+}
+
+.FAQ-Section .read-more-conten .read-more-txt p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.FAQ-Section #mybuttonid {
+    background-color: transparent;
+    font-size: 18px;
+    color: #00b2d6;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.FAQ-Section #mybuttonid,
+.FAQ-Section .dropdown-btn {
+    display: block;
+    border: none;
+}
+
+
+.FAQ-Section .faq-area {
+    padding-bottom: 50px;
+}
+
+.FAQ-Section .faq-area .section-title-faq {
+    max-width: 750px;
+    margin: -6px auto 50px;
+    position: relative;
+}
+
+.Faq-Animation-Size {}
+
+.FAQ-Section .faq-area .section-title-faq span,
+.FAQ-Section .faq-area .section-title-faqs span {
+    font-size: 16px;
+    color: #00b2d6;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.FAQ-Section .faq-area .read-more-txt h2,
+.FAQ-Section .faq-area .section-title-faq h2 {
+    font-size: 45px;
+    color: #333;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.FAQ-Section .faq-area .faq-accordion {
+    max-width: 930px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.FAQ-Section .faq-area .faq-accordion .accordion {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.FAQ-Section .faq-area .faq-accordion .accordion .accordion-item {
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.FAQ-Section .faq-area .faq-accordion .accordion .accordion-title {
+    padding: 15px 60px 10px 0;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #fff;
+    border-bottom: 1px solid #e9f7fe;
+    z-index: 1;
+}
+
+.FAQ-Section .faq-area .faq-accordion.faq-home .accordion .accordion-title i {
+    top: 6px;
+}
+
+.FAQ-Section .faq-area .faq-accordion .accordion .accordion-title i {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 30px;
+    color: #00b2d6;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.FAQ-Section .faq-area .faq-accordion .accordion .accordion-content {
+    position: relative;
+    margin-top: -6px;
+    padding: 20px 60px 10px 0;
+    background-color: #fff;
+}
+
+.FAQ-Section .faq-area p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 576px) {
+    .FAQ-Section .read-more-content .read-more-txt {
+        padding: 15px;
+    }
+
+    .FAQ-Section h2 {
+        font-size: 15px;
+    }
+
+    .FAQ-Section .faq-area {
+        padding: 15px;
+    }
+
+    .FAQ-Section .faq-area .read-more-txt h2,
+    .FAQ-Section .faq-area .section-title-faq h2 {
+        font-size: 25px;
+    }
+
+    .FAQ-Section .faq-area .faq-accordion .accordion .accordion-title {
+        font-size: 15px;
+    }
+
+    .FAQ-Section .faq-area .faq-accordion .accordion .accordion-item {
+        margin-bottom: 0px;
+    }
+
+    .FAQ-Section .faq-area .faq-accordion.faq-home .accordion .accordion-title i {
+        top: 17px;
+    }
+
+    .FAQ-Section .faq-area .faq-accordion .accordion .accordion-title i {
+        font-size: 19px;
+    }
+
+    .FAQ-Section .slide-in p {
+        font-size: 15px;
+    }
+
+}

@@ -1,0 +1,64 @@
+/* ye css hai page ke ke heading ke liye  */
+.about-us-text {
+    position: absolute;
+    left: 0;
+    height: max-content;
+    background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    /* Vertical writing mode */
+    text-orientation: mixed;
+    /* Mixed text orientation */
+    transform: scale(-1);
+    /* Flip text vertically */
+    z-index: 99;
+  }
+  
+  /* end */
+
+/*** Job Listing ***/
+
+
+.career-section .job-item {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.career-section .job-item:hover {
+    border-color: rgba(0, 0, 0, .08);
+    box-shadow: none;
+}
+
+.career-section .text-primary {
+    color: #00b2d6 !important;
+}
+
+.career-section .btn-primary {
+    background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+    border-color: #00b2d6;
+}
+
+.career-section .btn-primary:hover,
+.career-section .btn-primary:focus,
+.career-section .btn-primary:focus-visible {
+    background-color: #00b2d6 !important;
+    border-color: #00b2d6 !important;
+    outline: none !important;
+}
+
+@media (max-width: 767px) {
+    .career-section .text-truncate {
+        font-size: 14px;
+    }
+    .career-section .text-truncate span{
+        font-size: 12px !important;
+    }
+    .career-section .btn-primary{
+        font-size: 12px;
+    }
+}

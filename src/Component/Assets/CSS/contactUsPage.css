@@ -1,0 +1,212 @@
+/* ye css hai page ke ke heading ke liye  */
+.about-us-text {
+    position: absolute;
+    left: 0;
+    height: max-content;
+    background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    /* Vertical writing mode */
+    text-orientation: mixed;
+    /* Mixed text orientation */
+    transform: scale(-1);
+    /* Flip text vertically */
+    z-index: 99;
+}
+
+/* end */
+
+
+
+/*** Contact Start ***/
+.contact-us-page {
+    /* margin-top: 100px; */
+}
+
+.contact-us-page .contact-detail {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .05);
+    padding: 40px 30px;
+    border-radius: .5rem;
+}
+
+.contact-us-page .contact-detail .contact-form h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: -12px;
+    font-weight: bold;
+}
+
+.contact-us-page a {
+    text-decoration: none;
+}
+
+.contact-us-page a:hover {
+    color: #00b2d6;
+}
+
+.contact-us-page .contact-us-button-send {
+    padding: 12px 25px;
+    border: 1px solid #00b2d6;
+    color: white;
+    border-radius: 43px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+}
+
+.contact-us-page .contact-us-button-send:hover {
+    background-image: linear-gradient(to bottom, white, white);
+    color: #00b2d6 !important;
+    transition: background-image 0.3s ease, color 0.3s ease;
+    border: 1px solid #00b2d6;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 100% !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .contact-us-page .p-5 {
+        padding: 10px !important;
+    }
+    .page-title-area .page-title-content{
+        text-align: center !important;
+        margin-top: 80px;
+    }
+    .contact-us-page-email-animation{
+        height: auto !important;
+    }
+    .contact-details-number-email-address{
+        justify-content: start !important;
+    }
+    .contact-phone{
+        height: 50px !important;
+        width: 48px !important;
+    }
+    .contact-email{
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .contact-address{
+        height: auto !important;
+        width: 106px !important;
+    }
+    .contact-details-number-email-address a{
+        font-size: 15px;
+    }
+}
+
+.for-submit-message {
+    color: black !important;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+/*** Contact End ***/
+
+/* ye css about contatc page ke liye hai */
+.page-title-area {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    background-image: url(../img/contact-us-background1.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.page-title-area .page-title-content {
+    position: relative;
+    text-align: left;
+}
+
+.page-title-area .page-title-content ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+.page-title-area .page-title-content ul li:first-child,
+.pricing-area .tab .tabs li:last-child {
+    margin-left: 0;
+}
+
+.page-title-area .page-title-content ul li {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    padding-right: 10px;
+    margin-left: 2px;
+}
+
+.page-title-area ul li a {
+    color: #222;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.page-title-area .page-title-content ul li:last-child {
+    padding-right: 0;
+    color: #00b2d6;
+    font-weight: 500;
+}
+
+.page-title-area ul li a:hover {
+    color: #00b2d6;
+}
+
+.contact-us-page-email-animation {
+    height: 500px;
+}
+
+.form-control {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .05);
+    background-color: #fff !important;
+}
+
+.conatct-img-animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.page-title-content h2 {
+    font-weight: 700;
+}
+
+.contact-phone {
+    height: 100px;
+    width: 100px;
+}
+
+.contact-email {
+    height: 100px;
+    width: 100px;
+}
+
+.contact-address {
+    height: 100px;
+    width: 100px;
+}
+
+.contact-details-number-email-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact-details-number-email-address a{
+    color: #00b2d6;
+}
+
+/* ye css zoom ke liye hai */

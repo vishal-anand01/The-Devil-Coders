@@ -1,0 +1,24 @@
+body {
+  overflow-x: hidden;
+}
+
+.ripple {
+  width: 20px;
+  height: 20px;
+  background-color: #1cd2f4;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  /* Center the ripple around the mouse */
+  animation: ripple-effect 0.4s ease-out forwards;
+  z-index: 111111111111111111;
+}
+
+@keyframes ripple-effect {
+  to {
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+  }
+}

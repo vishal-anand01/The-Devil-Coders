@@ -1,0 +1,483 @@
+.AboutPageMain .about-us-text {
+  position: absolute;
+  left: 0;
+  height: max-content;
+  background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  /* Vertical writing mode */
+  text-orientation: mixed;
+  /* Mixed text orientation */
+  transform: scale(-1);
+  /* Flip text vertically */
+  z-index: 99;
+}
+
+/* end */
+
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+.AboutPageMain section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.AboutPageMain .section-bg {
+  background-color: #f5f5ff;
+}
+
+.AboutPageMain .section-title {
+  padding-bottom: 40px;
+}
+
+.AboutPageMain .section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.AboutPageMain .section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #00b2d6;
+  margin: 4px 10px;
+}
+
+.AboutPageMain .section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #00b2d6;
+}
+
+
+
+/*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+.AboutPageMain .background-box img {}
+
+.AboutPageMain .about {
+  padding: 40px 0 0 0;
+}
+
+.AboutPageMain .about .icon-boxes h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #00b2d6;
+  margin-bottom: 15px;
+}
+
+.AboutPageMain .about .icon-box {
+  margin-top: 40px;
+}
+
+.AboutPageMain .about .icon-box .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #00b2d6;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.AboutPageMain .about .icon-box .icon i {
+  color: #00b2d6;
+  font-size: 32px;
+}
+
+.AboutPageMain .about .icon-box:hover .icon {
+  background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+  border-color: #077988;
+}
+
+.AboutPageMain .about .icon-box:hover .icon i {
+  color: #fff;
+}
+
+.AboutPageMain .about .icon-box .title {
+  margin-left: 85px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.AboutPageMain .about .icon-box .title a {
+  color: #343a40;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.AboutPageMain .about .icon-box .title a:hover {
+  color: #00b2d6;
+}
+
+.AboutPageMain .about .icon-box .description {
+  margin-left: 85px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+
+/*--------------------------------------------------------------
+  # Features
+  --------------------------------------------------------------*/
+.AboutPageMain .features .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #f5f5ff;
+  transition: ease-in-out 0.3s;
+}
+
+.AboutPageMain .features .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.AboutPageMain .features .icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.AboutPageMain .features .icon-box h3 a {
+  color: #00b2d6;
+  transition: ease-in-out 0.3s;
+  text-decoration: none;
+}
+
+.AboutPageMain .features .icon-box h3 a:hover {
+  color: #00b2d6;
+}
+
+.AboutPageMain .features .icon-box:hover {
+  background: #ebebff;
+}
+
+/*--------------------------------------------------------------
+  # Counts
+  --------------------------------------------------------------*/
+.AboutPageMain .counts {
+  background: #f5f5ff;
+  padding: 70px 0 60px;
+}
+
+.AboutPageMain .counts .count-box {
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: #fff;
+}
+
+.AboutPageMain .counts .count-box i {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  background: #00b2d6;
+  padding: 12px;
+  color: #fff;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  width: 48px;
+  height: 48px;
+}
+
+.AboutPageMain .counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #00b2d6;
+}
+
+.AboutPageMain .counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+  # Details
+  --------------------------------------------------------------*/
+.AboutPageMain .details .content+.content {
+  margin-top: 100px;
+}
+
+.AboutPageMain .details .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #00b2d6;
+}
+
+.AboutPageMain .details .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.AboutPageMain .details .content ul li {
+  padding-bottom: 10px;
+}
+
+.AboutPageMain .details .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #00b2d6;
+}
+
+.AboutPageMain .details .content p:last-child {
+  margin-bottom: 0;
+}
+
+.AboutPageMain .style-for-content-center {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.AboutPageMain .mainbg1animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.AboutPageMain #details .animatedimg {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+
+
+
+/*--------------------------------------------------------------
+  # Team
+  --------------------------------------------------------------*/
+.AboutPageMain .team {
+  background: #fff;
+}
+
+.AboutPageMain .team .member {
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.AboutPageMain .team .member .pic {
+  border-radius: 4px;
+  overflow: hidden;
+  height: 400px;
+}
+
+.AboutPageMain .team .member img {
+  transition: all ease-in-out 0.4s;
+  height: 400px;
+}
+
+.AboutPageMain .team .member:hover img {
+  transform: scale(1.1);
+}
+
+.AboutPageMain .team .member .member-info {
+  position: absolute;
+  bottom: -46px;
+  left: 0px;
+  right: 0px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 0;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.AboutPageMain .team .member h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #00b2d6;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.AboutPageMain .team .member h4::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #0d12fc;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.AboutPageMain .team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #00b2d6;
+}
+
+.AboutPageMain .team .member .social {
+  margin-top: 10px;
+}
+
+.AboutPageMain .team .member .social a {
+  transition: color 0.3s;
+  color: #00b2d6;
+}
+
+.AboutPageMain .team .member .social a:hover {
+  color: #00b2d6;
+}
+
+.AboutPageMain .team .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+
+/* team icons css */
+.member-message .icon-box .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #00b2d6;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0px 10px;
+}
+
+.member-message .icon-box .icon i {
+  color: #00b2d6;
+  font-size: 20px;
+}
+
+.member-message .icon-box:hover .icon {
+  background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+  border-color: #077988;
+}
+
+.member-message .icon-box:hover .icon i {
+  color: #fff;
+}
+
+.about-section-button {
+  background-color: white;
+  border-color: #00b2d6 !important;
+  color: #00b2d6 !important;
+  font-weight: 600 !important;
+  transition: .5s !important;
+}
+
+.about-section-button:hover {
+  background-image: linear-gradient(to bottom, rgb(7, 121, 136), rgb(0, 147, 163), rgb(0, 185, 203));
+  color: white !important;
+}
+
+.core-team-member {
+  margin-top: 100px;
+}
+
+.core-team-member .member-message {
+  text-align: right;
+}
+
+.core-team-member .member-message .icon-box a {
+  float: right;
+}
+
+#faq .FAQ-Section {
+  margin-top: 0px;
+  background-color: #f5f5ff;
+}
+
+#faq .heading-for-faq {
+  display: none;
+}
+
+#faq .FAQ-Section {
+  padding: 0px 0px;
+}
+
+@media screen and (max-width: 600px) {
+  #features {
+    padding: 15px;
+  }
+
+  .AboutPageMain .section-title p {
+    font-size: 25px;
+  }
+
+  .AboutPageMain .counts .count-box {
+    padding: 30px 0px 25px 0px;
+  }
+
+  .AboutPageMain .counts .count-box span {
+    font-size: 20px;
+  }
+
+  .AboutPageMain .counts {
+    padding: 30px 0 30px;
+  }
+
+  .AboutPageMain .counts .count-box {
+    height: 120px;
+  }
+
+  #details {
+    padding: 15px;
+  }
+
+  #team.px-5 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .core-team-member {
+    margin-top: 0px;
+  }
+
+  .core-team-member .member-message {
+    text-align: left;
+  }
+
+  .core-team-member .member-message .icon-box a {
+    float: left;
+
+  }
+
+  .core-team-member .member .pic img{
+    margin-top: 20px;
+  }
+  .AboutPageMain .team .member{
+    margin-bottom: 20px;
+  }
+
+}
